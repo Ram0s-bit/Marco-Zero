@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #6bcbd7;
+
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+header nav ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    
+    transition: background-color 0.4s;
+}
+
+header nav ul li a:hover{
+    background-color:#248a97;
+    color: #ffffff;
+}
